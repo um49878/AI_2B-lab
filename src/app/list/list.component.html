@@ -1,0 +1,15 @@
+<div id="frame">
+  <div>
+    <h3> lista notatek</h3>
+  </div>
+  <div id="input">
+    <input type="text" [(ngModel)]="inputTxt">
+    <button (click)="addElement()">Dodaj</button>
+  </div>
+  <div id="row" *ngFor="let row of elements; index as i">
+      {{row}}
+      <a href="#" (click)="removeElement(i)" id="delButton">Skasuj</a>
+  </div>
+</div>
+
+

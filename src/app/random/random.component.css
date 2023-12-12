@@ -1,0 +1,30 @@
+#frame{
+  display: flex;
+  border: 1px solid dimgray;
+  background-color: beige;
+  padding: 10px;
+  margin: 10px;
+  vertical-align: center;
+}
+
+button{
+  margin: 0 5px;
+  background-color: cornflowerblue;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+#results{
+  width: 75%;
+}
+
+.red{
+  color: red;
+}
+
+.green {
+  color: darkgreen;
+}

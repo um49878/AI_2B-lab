@@ -1,0 +1,12 @@
+<div id = "frame">
+  <div id="results">
+    <div>Moduł losujący (max = {{max}})</div>
+    <span >Wylosowano: {{myNumber}} </span>
+    <span *ngIf="isLowerHalf()" [class.green]="isLowerHalf()">   ==>    dolna połowa zakresu</span>
+    <span *ngIf="!isLowerHalf()" [class.red]="!isLowerHalf()">   ==>    górna połowa zakresu</span>
+  </div>
+  <div id="new_random">
+    <button (click)="onCLick()">Losowanie</button>
+  </div>
+</div>
+

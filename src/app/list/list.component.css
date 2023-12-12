@@ -1,0 +1,41 @@
+
+button{
+  margin: 0 5px;
+  background-color: cornflowerblue;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+#delButton{
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0px 0px 3px 10px;
+  background-color: darkred;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+}
+
+#row{
+  display: flex;
+  padding: 5px 0px;
+}
+
+#input{
+  width: 75%;
+}
+
+#frame{
+  border: 1px solid dimgray;
+  background-color: beige;
+  padding: 10px;
+  margin: 10px;
+  vertical-align: center;
+}
+
+
