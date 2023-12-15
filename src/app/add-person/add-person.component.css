@@ -1,0 +1,34 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 500px;
+  padding: 10px;
+}
+
+.formRow {
+  margin-bottom: 5px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.textInput {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+#zip{
+  width: 30%;
+}
+#city{
+  width: 70%;
+}
+

@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+header{
+  background-color: darkred;
+  padding: 1px;
+}
+header>h1{
+  font-weight: bold;
+  text-align: center;
+  color: cornsilk;
+}
+
+body {
+  background: url("https://placehold.co/100x100/FFFFFF/EFEFEF/png?text=49878");
+  font: 15px Callibri, sans-serif;
+}
+
+footer{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 12px;
+  text-align: center;
+  color: black;
+  background-color: khaki;
+  padding: 5px;
+}
+
+.topBar{
+  display: flex;
+  justify-content: end;
+  margin: 5px;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.button{
+  background-color: darkolivegreen;
+  color: white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 0px 5px;
+  border: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  max-width: 150px;
+}
+
+.strong{
+  font-weight: bold;
+}

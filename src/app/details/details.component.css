@@ -1,0 +1,25 @@
+.details{
+  display: flex;
+  margin: 5px;
+}
+
+.address{
+  width: 50%;
+}
+
+.wanted{
+  background-color: #ffa6a6;
+  color: black;
+  padding: 5px;
+  text-align: center;
+}
+
+.reward{
+  font-weight: bolder;
+  font-size: 180%;
+  color: red;
+}
+
+
+
+

@@ -1,0 +1,18 @@
+<div class="topBar">
+  <a routerLink="/list" class="button">Lista</a>
+  <a routerLink="/add" class="button">Nowy wpis</a>
+</div>
+<h2>{{person?.firstName}} {{person?.lastName}}</h2>
+<div class="details">
+  <div class = "address">
+    <p style="font-weight: bold"> Ostatni znany adres:</p>
+    <p>{{person?.lastAddress?.street}}</p>
+    <p>{{person?.lastAddress?.zip}}  {{person?.lastAddress?.city}}</p>
+  </div>
+  <div class="wanted">
+    <p> Poszukiwany za:  {{person?.wantedFor}}</p>
+    <p> NAGRODA</p>
+    <p class = "reward">{{person?.reward}}</p>
+  </div>
+</div>
+

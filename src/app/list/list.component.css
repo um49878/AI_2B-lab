@@ -1,0 +1,10 @@
+.delete{
+  color: red;
+  background-color: lightgray;
+  border-color: red;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.row{
+  margin: 5px;
+}

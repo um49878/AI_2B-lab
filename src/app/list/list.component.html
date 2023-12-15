@@ -1,0 +1,13 @@
+<div class="topBar">
+  <a routerLink="/add" class="button">Nowy wpis</a>
+</div>
+
+<div>
+  <div class="row" *ngFor="let person of people; let i = index">
+    <a [routerLink]="['/details', i]">
+      {{i}}) {{person.firstName}} {{person.lastName}} - Reward: {{person.reward}}
+    </a>
+  <button class="delete" (click)="delete(i)">Skasuj</button>
+</div>
+
+
